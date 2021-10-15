@@ -6,7 +6,7 @@ const { Post, User, Comment } = require('../models');
     Post.findAll({
       attributes: [
         'id',
-        'post_url',
+        'post_description',
         'title',
         'created_at'
       ],
@@ -54,7 +54,7 @@ const { Post, User, Comment } = require('../models');
       },
       attributes: [
         'id',
-        'post_url',
+        'post_description',
         'title',
         'created_at'
       ],

@@ -122,10 +122,22 @@ main {
   line-height: 150%;
 }
 
-.post .title span {
+.post span {
   font-style: italic;
   font-size: 90%;
   color: #7d7d7d;
+}
+
+.title {
+font-weight: strong;
+font-size: large;
+color: dodgerblue;
+}
+
+.post_description {
+  border-width: thin;
+  border-style: solid;
+  border-color: lightslategrey;
 }
 
 .edit-link {
@@ -167,6 +179,15 @@ main {
 
 .edit-post-form {
   margin-bottom: 5%;
+}
+
+.edit-post-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-post-form div textarea {
+  margin-top: 10px;
 }
 
 footer {
